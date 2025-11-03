@@ -1,0 +1,398 @@
+[
+  {
+    "type": "cpu_spike",
+    "duration_s": 180,
+    "cmd": "python stressors\\cpu_stress.py --procs 8 --duration 180",
+    "start": "2025-10-11T02:30:00"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 1200,
+    "cmd": "python stressors\\cpu_stress.py --procs 10 --duration 1200",
+    "start": "2025-10-11T02:31:24"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 180,
+    "cmd": "python stressors\\mem_stress.py --step_mb 600 --steps 9 --sleep 10",
+    "start": "2025-10-11T02:35:35"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 180,
+    "cmd": "python stressors\\disk_stress.py --size_mb 800 --block_mb 20",
+    "start": "2025-10-11T02:55:35"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 600,
+    "cmd": "python stressors\\cpu_stress.py --procs 10 --duration 600",
+    "start": "2025-10-11T02:56:06"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 180,
+    "cmd": "python stressors\\disk_stress.py --size_mb 2000 --block_mb 5",
+    "start": "2025-10-11T02:58:49"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 600,
+    "cmd": "python stressors\\mem_stress.py --step_mb 300 --steps 12 --sleep 10",
+    "start": "2025-10-11T02:59:33"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 300,
+    "cmd": "python stressors\\disk_stress.py --size_mb 1500 --block_mb 10",
+    "start": "2025-10-11T03:02:33"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 600,
+    "cmd": "python stressors\\cpu_stress.py --procs 8 --duration 600",
+    "start": "2025-10-11T03:22:33"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 900,
+    "cmd": "python stressors\\cpu_stress.py --procs 10 --duration 900",
+    "start": "2025-10-11T03:22:33"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 900,
+    "cmd": "python stressors\\cpu_stress.py --procs 6 --duration 900",
+    "start": "2025-10-11T03:23:33"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 300,
+    "cmd": "python stressors\\disk_stress.py --size_mb 1000 --block_mb 10",
+    "start": "2025-10-11T03:33:33"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 600,
+    "cmd": "python stressors\\cpu_stress.py --procs 10 --duration 600",
+    "start": "2025-10-11T03:36:19"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 300,
+    "cmd": "python stressors\\cpu_stress.py --procs 6 --duration 300",
+    "start": "2025-10-11T03:51:19"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 900,
+    "cmd": "python stressors\\disk_stress.py --size_mb 1500 --block_mb 10",
+    "start": "2025-10-11T04:21:19"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 600,
+    "cmd": "python stressors\\cpu_stress.py --procs 4 --duration 600",
+    "start": "2025-10-11T04:21:19"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 180,
+    "cmd": "python stressors\\cpu_stress.py --procs 6 --duration 180",
+    "start": "2025-10-11T04:24:19"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 1200,
+    "cmd": "python stressors\\disk_stress.py --size_mb 2000 --block_mb 10",
+    "start": "2025-10-11T04:39:19"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 900,
+    "cmd": "python stressors\\cpu_stress.py --procs 8 --duration 900",
+    "start": "2025-10-11T04:39:19"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 600,
+    "cmd": "python stressors\\cpu_stress.py --procs 10 --duration 600",
+    "start": "2025-10-11T05:09:19"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 600,
+    "cmd": "python stressors\\disk_stress.py --size_mb 800 --block_mb 20",
+    "start": "2025-10-11T05:11:19"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 1200,
+    "cmd": "python stressors\\mem_stress.py --step_mb 400 --steps 12 --sleep 10",
+    "start": "2025-10-11T05:12:19"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 1200,
+    "cmd": "python stressors\\disk_stress.py --size_mb 2000 --block_mb 10",
+    "start": "2025-10-11T05:14:19"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 600,
+    "cmd": "python stressors\\cpu_stress.py --procs 6 --duration 600",
+    "start": "2025-10-11T05:25:36"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 900,
+    "cmd": "python stressors\\disk_stress.py --size_mb 800 --block_mb 20",
+    "start": "2025-10-11T05:25:36"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 900,
+    "cmd": "python stressors\\disk_stress.py --size_mb 800 --block_mb 10",
+    "start": "2025-10-11T05:29:01"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 300,
+    "cmd": "python stressors\\disk_stress.py --size_mb 800 --block_mb 20",
+    "start": "2025-10-11T05:59:01"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 1200,
+    "cmd": "python stressors\\mem_stress.py --step_mb 400 --steps 12 --sleep 10",
+    "start": "2025-10-11T06:01:11"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 300,
+    "cmd": "python stressors\\cpu_stress.py --procs 4 --duration 300",
+    "start": "2025-10-11T06:01:11"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 300,
+    "cmd": "python stressors\\cpu_stress.py --procs 4 --duration 300",
+    "start": "2025-10-11T06:09:03"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 300,
+    "cmd": "python stressors\\mem_stress.py --step_mb 600 --steps 12 --sleep 10",
+    "start": "2025-10-11T06:10:08"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 300,
+    "cmd": "python stressors\\mem_stress.py --step_mb 500 --steps 10 --sleep 10",
+    "start": "2025-10-11T06:10:08"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 900,
+    "cmd": "python stressors\\mem_stress.py --step_mb 300 --steps 12 --sleep 10",
+    "start": "2025-10-11T06:30:08"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 180,
+    "cmd": "python stressors\\cpu_stress.py --procs 6 --duration 180",
+    "start": "2025-10-11T06:37:05"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 600,
+    "cmd": "python stressors\\mem_stress.py --step_mb 300 --steps 12 --sleep 10",
+    "start": "2025-10-11T07:07:05"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 180,
+    "cmd": "python stressors\\disk_stress.py --size_mb 800 --block_mb 5",
+    "start": "2025-10-11T07:11:20"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 600,
+    "cmd": "python stressors\\disk_stress.py --size_mb 800 --block_mb 10",
+    "start": "2025-10-11T07:11:20"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 180,
+    "cmd": "python stressors\\disk_stress.py --size_mb 1000 --block_mb 10",
+    "start": "2025-10-11T07:26:20"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 1200,
+    "cmd": "python stressors\\mem_stress.py --step_mb 600 --steps 12 --sleep 10",
+    "start": "2025-10-11T07:31:20"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 1200,
+    "cmd": "python stressors\\cpu_stress.py --procs 8 --duration 1200",
+    "start": "2025-10-11T07:43:01"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 1200,
+    "cmd": "python stressors\\cpu_stress.py --procs 4 --duration 1200",
+    "start": "2025-10-11T07:49:47"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 900,
+    "cmd": "python stressors\\cpu_stress.py --procs 6 --duration 900",
+    "start": "2025-10-11T07:52:27"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 1200,
+    "cmd": "python stressors\\mem_stress.py --step_mb 500 --steps 12 --sleep 10",
+    "start": "2025-10-11T07:52:27"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 600,
+    "cmd": "python stressors\\cpu_stress.py --procs 8 --duration 600",
+    "start": "2025-10-11T07:55:27"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 600,
+    "cmd": "python stressors\\mem_stress.py --step_mb 300 --steps 12 --sleep 10",
+    "start": "2025-10-11T07:55:27"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 1200,
+    "cmd": "python stressors\\cpu_stress.py --procs 8 --duration 1200",
+    "start": "2025-10-11T08:00:12"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 300,
+    "cmd": "python stressors\\cpu_stress.py --procs 6 --duration 300",
+    "start": "2025-10-11T08:02:12"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 1200,
+    "cmd": "python stressors\\disk_stress.py --size_mb 2000 --block_mb 5",
+    "start": "2025-10-11T08:22:12"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 300,
+    "cmd": "python stressors\\cpu_stress.py --procs 4 --duration 300",
+    "start": "2025-10-11T08:30:50"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 600,
+    "cmd": "python stressors\\cpu_stress.py --procs 8 --duration 600",
+    "start": "2025-10-11T08:30:50"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 1200,
+    "cmd": "python stressors\\mem_stress.py --step_mb 300 --steps 12 --sleep 10",
+    "start": "2025-10-11T08:32:02"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 600,
+    "cmd": "python stressors\\disk_stress.py --size_mb 1000 --block_mb 5",
+    "start": "2025-10-11T08:32:02"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 900,
+    "cmd": "python stressors\\mem_stress.py --step_mb 600 --steps 12 --sleep 10",
+    "start": "2025-10-11T08:47:02"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 300,
+    "cmd": "python stressors\\mem_stress.py --step_mb 500 --steps 7 --sleep 10",
+    "start": "2025-10-11T08:55:37"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 180,
+    "cmd": "python stressors\\disk_stress.py --size_mb 800 --block_mb 20",
+    "start": "2025-10-11T08:56:26"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 1200,
+    "cmd": "python stressors\\disk_stress.py --size_mb 1500 --block_mb 20",
+    "start": "2025-10-11T08:59:26"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 300,
+    "cmd": "python stressors\\disk_stress.py --size_mb 800 --block_mb 10",
+    "start": "2025-10-11T08:59:26"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 180,
+    "cmd": "python stressors\\cpu_stress.py --procs 8 --duration 180",
+    "start": "2025-10-11T09:01:26"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 300,
+    "cmd": "python stressors\\cpu_stress.py --procs 4 --duration 300",
+    "start": "2025-10-11T09:16:26"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 300,
+    "cmd": "python stressors\\cpu_stress.py --procs 10 --duration 300",
+    "start": "2025-10-11T09:31:26"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 300,
+    "cmd": "python stressors\\mem_stress.py --step_mb 600 --steps 10 --sleep 10",
+    "start": "2025-10-11T09:31:26"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 600,
+    "cmd": "python stressors\\disk_stress.py --size_mb 1000 --block_mb 10",
+    "start": "2025-10-11T09:33:55"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 180,
+    "cmd": "python stressors\\cpu_stress.py --procs 8 --duration 180",
+    "start": "2025-10-11T09:39:49"
+  },
+  {
+    "type": "cpu_spike",
+    "duration_s": 180,
+    "cmd": "python stressors\\cpu_stress.py --procs 10 --duration 180",
+    "start": "2025-10-11T09:41:49"
+  },
+  {
+    "type": "disk_io",
+    "duration_s": 1200,
+    "cmd": "python stressors\\disk_stress.py --size_mb 600 --block_mb 10",
+    "start": "2025-10-11T09:51:49"
+  },
+  {
+    "type": "memory_load",
+    "duration_s": 900,
+    "cmd": "python stressors\\mem_stress.py --step_mb 400 --steps 12 --sleep 10",
+    "start": "2025-10-11T09:51:49"
+  }
+]

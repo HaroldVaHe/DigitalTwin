@@ -24,10 +24,12 @@ Data/
   ├─ psutil_logger.py
   ├─ system_metrics_dataset.csv
   └─ system_metrics_datasetExperimental.csv
+Presentation/
+  └─ presentation.pptx
+Report/
+  └─ report.pdf
 .gitattributes
-presentation.pptx
 README.md
-report.pdf
 ```
 
 ---
